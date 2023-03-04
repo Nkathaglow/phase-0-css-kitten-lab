@@ -5,6 +5,41 @@
   <title>CSS Kitten Wheelbarrow</title>
   <link rel="stylesheet" href="css/wheelbarrow.css">
   <link rel="stylesheet" href="css/place-kitty.css">
+  <style>
+    .parent-element {
+      position: absolute;
+    }
+    .child-element {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+    }
+    .kitty-1 {
+      position: absolute;
+      z-index: 1;
+      top: 276px;
+    }
+    .#kitty-2 {
+      position: absolute;
+      z-index: 2;
+      top: 212px;
+    }
+    #basket img {
+      position: absolute;
+      z-index: 5;
+      top: 291px;
+    }
+    #ball+img {
+      position: absolute;
+      z-index: 4;
+      top: 260px;
+    }
+    +image[alt="kitty 5"] {
+      position: absolute;
+      z-index: 3;
+      top: 217px;
+    }
+  </style>
 </head>
 <body>
   <div class="wrapper">
